@@ -1,4 +1,23 @@
-:root {
+@import "tailwindcss";
+
+.heading{
+  color: white;
+  -webkit-text-stroke: 5px #003875;
+  text-shadow:
+    -1px -1px 0 #003875,
+     1px -1px 0 #003875,
+    -1px  1px 0 #003875,
+     1px  1px 0 #003875;
+}
+.subheading{
+ /* -webkit-text-stroke: 5px #FFFFFF;/*
+  /* text-shadow:
+    -1px -1px 0 #FFFFFF,
+     1px -1px 0 #FFFFFF,
+    -1px  1px 0 #FFFFFF,
+     1px  1px 0 #FFFFFF; */
+}
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +84,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
