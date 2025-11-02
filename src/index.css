@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+
+.herotext{
+  position: absolute;
+  left: 50%;
+  bottom: -7.8rem;
+  transform: translate(-50%, -50%);
+
+}
 .heading{
   color: white;
-  -webkit-text-stroke: 5px #003875;
+  -webkit-text-stroke: 4px #003875;
   text-shadow:
     -1px -1px 0 #003875,
      1px -1px 0 #003875,
@@ -10,13 +18,19 @@
      1px  1px 0 #003875;
 }
 .subheading{
- /* -webkit-text-stroke: 5px #FFFFFF;/*
-  /* text-shadow:
-    -1px -1px 0 #FFFFFF,
-     1px -1px 0 #FFFFFF,
-    -1px  1px 0 #FFFFFF,
-     1px  1px 0 #FFFFFF; */
+  color:#0080FF;
+  /* -webkit-text-stroke: 0px #0080FF; */
+  text-shadow:
+     -2px -2px 0 #FFFFFF,
+                2px -2px 0 #FFFFFF,
+                -2px 2px 0 #FFFFFF,
+                2px 2px 0 #FFFFFF,
+                -3px 0px 0 #FFFFFF,
+                3px 0px 0 #FFFFFF,
+                0px -3px 0 #FFFFFF,
+                0px 3px 0 #FFFFFF;
 }
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
