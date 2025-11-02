@@ -11,9 +11,10 @@ const Hero = () => {
             <div >
                 <img src={desktopbg} alt="hero background" className='max-h-[828px] w-full' />
             </div>
-            <div className='herotext text-center'>            <h1 className='heading font-bold text-[100px] text-white uppercase'>Neurolingva:</h1>
+            <div className='herotext text-center'>            
+                <h1 className='heading font-bold text-[100px] text-white uppercase'>Neurolingva:</h1>
             <h3 className='subheading -mt-[30px] text-[50px] text-[#0080FF] '>AI-Powered Language Learning</h3>
-            <button className='text-[40px] font-extrabold uppercase text-white tracking-[5%] bg-linear-to-r from-[#008B00] to-[#DBFF30] rounded-[20px] px-[50px] py-[18px] border-[10px]' type="button">Register</button>               
+            <button className='mt-[30px] text-[35px] font-extrabold uppercase text-white tracking-[5%] bg-linear-to-r from-[#008B00] to-[#DBFF30] rounded-[20px] px-[50px] py-[12px] border-[8px]' type="button">Register</button>               
             </div>
         </div>
     );
